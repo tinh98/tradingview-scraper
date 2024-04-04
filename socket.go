@@ -130,7 +130,7 @@ func (s *Socket) sendConnectionSetupMessages() (err error) {
 		"ch", "chp", "rtc", "rch", "rchp", "lp", "is_tradable",
 		"short_name", "description", "currency_code", "current_session",
 		"status", "type", "update_mode", "fundamentals", "pro_name",
-		"original_name" "volume", "bid", "ask"}),
+		"original_name", "volume", "bid", "ask"}),
 	}
 
 	for _, msg := range messages {
